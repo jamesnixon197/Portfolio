@@ -1,0 +1,43 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --hot --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesnixon197/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "node"
+  ],
+  "author": "James Nixon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesnixon197/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jamesnixon197/Portfolio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.11.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

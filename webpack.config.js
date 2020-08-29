@@ -6,9 +6,15 @@ const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
     entry: './src/index.js',
+    target: 'web',
     devServer: {
         inline: false,
         historyApiFallback: true,
+        port: 3000,
+        watchContentBase: true,
+        watchOptions: {
+            poll: true,
+        },
     },
     output: {
         path: path.resolve(__dirname, 'dist'),

@@ -1,0 +1,46 @@
+#navigationBar {
+    background: white;
+    padding: 20px 0;
+
+    #navigationBarContainer {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+
+        #logo {
+            margin-right: auto;
+            font-size: 1.9em;
+            color: #525252;
+        }
+
+        nav {
+            display: flex;
+
+            a {
+                padding: 8px;
+                color: #525252;
+                margin-left: 20px;
+                font-weight: 200;
+
+                &:hover {
+                    border-bottom: 2px solid #585e92;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #navigationBar {
+        #navigationBarContainer {
+            #logo {
+                margin: 0 auto;
+            }
+
+            nav {
+                display: none;
+            }
+        }
+    }
+}

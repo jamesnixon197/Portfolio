@@ -5,7 +5,7 @@ module.exports = {
         es6: true,
     },
     extends: ['eslint:recommended', 'plugin:react/recommended'],
-    plugins: ['react', 'filenames'],
+    plugins: ['react'],
     globals: {
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
@@ -20,8 +20,8 @@ module.exports = {
     rules: {
         indent: ['error', 4],
         quotes: ['error', 'single', { avoidEscape: true }],
+        semi: ['error', 'always'],
         'comma-dangle': ['error', 'always-multiline'],
         'space-before-function-paren': ['error', 'never'],
-        'filenames/match-exported': ['error', 'pascal'],
     },
 };

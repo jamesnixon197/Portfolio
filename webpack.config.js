@@ -7,9 +7,6 @@ const devMode = process.env.NODE_ENV !== 'production';
 module.exports = {
     entry: './src/index.js',
     target: 'web',
-    resolve: {
-        extensions: ['.js', '.jsx'],
-    },
     devServer: {
         inline: false,
         historyApiFallback: true,

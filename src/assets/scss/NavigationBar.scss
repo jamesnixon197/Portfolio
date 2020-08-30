@@ -1,11 +1,12 @@
 #navigationBar {
     background: white;
     padding: 20px 0;
+    max-height: 76px;
 
     #navigationBarContainer {
         display: flex;
         flex-direction: row;
-        width: 60%;
+        width: 50%;
 
         #logo {
             margin-right: auto;

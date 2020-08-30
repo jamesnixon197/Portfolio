@@ -21,10 +21,15 @@ body {
     margin-left: auto;
 }
 
-span.darkBlue {
-    color: #585e92;
+.darkBlue {
+    color: #5a6e94;
 }
 
-span.lighterText {
+.lighterText {
     font-weight: 200;
+}
+
+.heroSection {
+    width: 100%;
+    display: flex;
 }

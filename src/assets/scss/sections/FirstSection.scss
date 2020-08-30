@@ -1,0 +1,15 @@
+#firstSection {
+    align-items: center;
+    justify-content: center;
+    background: white;
+    background: linear-gradient(0deg, rgb(226 226 226) 10%, white 100%);
+
+    #firstSectionText {
+        font-size: 2.7em;
+        width: 40%;
+        text-align: center;
+        color: #525252;
+        padding: 60px 0 100px 0;
+        text-shadow: 1px 1px white;
+    }
+}

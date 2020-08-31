@@ -7,7 +7,7 @@
 }
 
 a {
-    color: #000000;
+    color: white;
     text-decoration: none;
 }
 
@@ -21,10 +21,6 @@ body {
     margin-left: auto;
 }
 
-.darkBlue {
-    color: #5a6e94;
-}
-
 .lighterText {
     font-weight: 200;
 }
@@ -32,4 +28,12 @@ body {
 .heroSection {
     width: 100%;
     display: flex;
+}
+
+#container {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    background: #647aa0;
+    background: linear-gradient(0deg, #618dda 10%, #386b96 100%);
 }

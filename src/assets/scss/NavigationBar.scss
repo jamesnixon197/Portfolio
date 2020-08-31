@@ -1,17 +1,21 @@
 #navigationBar {
-    background: white;
     padding: 20px 0;
     max-height: 76px;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 
     #navigationBarContainer {
         display: flex;
         flex-direction: row;
-        width: 50%;
+        width: 60%;
+        text-shadow: 2px 2px #00000040;
 
         #logo {
             margin-right: auto;
             font-size: 1.9em;
-            color: #525252;
+            color: white;
         }
 
         nav {
@@ -19,13 +23,12 @@
 
             a {
                 padding: 8px;
-                color: #525252;
                 margin-left: 20px;
                 font-weight: 200;
 
                 &:hover {
-                    border-bottom: 2px solid #585e92;
-                    font-weight: normal;
+                    border-bottom: 1px solid white;
+                    color: white;
                 }
             }
         }

@@ -27,9 +27,7 @@
 
 @media screen and (max-width: 1600px) {
     #mainContent {
-        #mainContent {
-            top: 50%;
-        }
+        top: 50%;
     }
 }
 
@@ -37,6 +35,16 @@
     #mainContent {
         #mainContentText {
             font-size: 3.7em;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #mainContent {
+        top: 55%;
+
+        #mainContentText {
+            font-size: 3em;
         }
     }
 }

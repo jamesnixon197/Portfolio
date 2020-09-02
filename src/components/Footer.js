@@ -4,7 +4,7 @@ import FooterIcon from './FooterIcon';
 
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
+// import TwitterIcon from '@material-ui/icons/Twitter';
 
 import '../assets/scss/Footer.scss';
 

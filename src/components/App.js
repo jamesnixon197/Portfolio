@@ -8,7 +8,6 @@ export default class App extends Component {
         return (
             <div id="container">
                 <NavigationBar />
-                <SideBar />
                 <MainContent />
             </div>
         );

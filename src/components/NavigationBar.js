@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import CV from '../assets/pdf/james-cv.pdf';
 import '../assets/scss/NavigationBar.scss';
 
 export default class NavigationBar extends Component {
@@ -11,8 +13,17 @@ export default class NavigationBar extends Component {
                         <span className="lighterText">.dev</span>
                     </div>
                     <nav className="lighterText">
-                        <a href="#" className="button">Curriculm Vitae</a>
-                        <a href="#" className="button">Contact Me</a>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={CV}
+                            className="button"
+                        >
+                            Curriculm Vitae
+                        </a>
+                        <a href="#" className="button">
+                            Contact Me
+                        </a>
                     </nav>
                 </div>
             </div>

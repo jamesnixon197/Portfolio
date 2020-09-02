@@ -20,7 +20,7 @@ export default class Footer extends Component {
                     url="https://www.linkedin.com/in/james-nixon-517a7b12a/"
                     icon={<LinkedInIcon />}
                 />
-                <FooterIcon url="https://github.com" icon={<TwitterIcon />} />
+                {/* <FooterIcon url="https://github.com" icon={<TwitterIcon />} /> */}
             </div>
         );
     }

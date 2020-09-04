@@ -21,7 +21,7 @@ export default class NavigationBar extends Component {
                         >
                             Curriculm Vitae
                         </a>
-                        <a href="#" className="button">
+                        <a href="mailto:jamesnixon197@gmail.com" className="button">
                             Contact Me
                         </a>
                     </nav>

@@ -18,6 +18,21 @@
             color: white;
         }
 
+        #navHamburger {
+            display: none;
+            font-size: 1.9em;
+            position: fixed;
+            right: 0;
+            top: 0;
+            padding: 8px 15px;
+            box-shadow: 0px 3px #00000014;
+            background: #ffffff21;
+            color: white;
+            filter: drop-shadow(0px 1px 0px #00000050);
+            cursor: pointer;
+            z-index: 2;
+        }
+
         nav {
             display: flex;
 
@@ -38,13 +53,34 @@
 
 @media screen and (max-width: 800px) {
     #navigationBar {
+        position: static;
+        max-height: initial;
+        height: initial;
+
         #navigationBarContainer {
+            flex-direction: column;
+
             #logo {
                 margin: 0 auto;
             }
 
             nav {
-                display: none;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+                width: 100%;
+                flex-direction: column;
+                margin: 10px 0 0 0;
+
+                a {
+                    text-align: center;
+                    margin-left: 0;
+                }
+
+                a:hover {
+                    border-bottom: none;
+                    box-shadow: none;
+                    background: #ffffff1f;
+                }
             }
         }
     }

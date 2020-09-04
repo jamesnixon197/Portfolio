@@ -41,10 +41,21 @@
 
 @media screen and (max-width: 1200px) {
     #mainContent {
-        top: 55%;
-
         #mainContentText {
             font-size: 3em;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #mainContent {
+        position: static;
+        top: initial;
+        left: initial;
+        transform: initial;
+
+        #mainContentText {
+            padding: 0 10px 10px 10px;
         }
     }
 }
